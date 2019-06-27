@@ -1,0 +1,27 @@
+{
+  "name": "@react-daily-hooks/use-input",
+  "version": "1.0.0",
+  "description": "React Hook to handling input state",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qvil/react-daily-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "hook",
+    "input",
+    "react-hooks"
+  ],
+  "author": "Taesu Hyeon <qvil1127@gmail.com> (https://github.com/qvil)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qvil/react-daily-hooks/issues"
+  },
+  "homepage": "https://github.com/qvil/react-daily-hooks#readme",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
