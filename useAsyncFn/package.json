@@ -1,0 +1,27 @@
+{
+  "name": "@react-daily-hooks/use-async-fn",
+  "version": "1.0.0",
+  "description": "React Hook to handling asynchronous function",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qvil/react-daily-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "react-hooks",
+    "hooks",
+    "hook",
+    "async"
+  ],
+  "author": "Taesu Hyeon <qvil1127@gmail.com> (https://github.com/qvil)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qvil/react-daily-hooks/issues"
+  },
+  "homepage": "https://github.com/qvil/react-daily-hooks#readme",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
