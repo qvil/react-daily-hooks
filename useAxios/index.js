@@ -7,6 +7,12 @@ export default (url, autoFetch = false) => {
     error: null,
     data: null
   });
+  const [trigger, setTrigger] = useState(0);
+
+  const refetch = () => {
+    setState(prev => ({ ...prev, loading: true }));
+    setTrigger(Date.now());
+  };
 
   const fetchAxios = useCallback(async () => {
     try {
@@ -26,7 +32,7 @@ export default (url, autoFetch = false) => {
     if (autoFetch) {
       fetchAxios();
     }
-  }, [url, autoFetch]);
+  }, [trigger, autoFetch]);
 
-  return { ...state, fetchAxios };
+  return { ...state, refetch };
 };
