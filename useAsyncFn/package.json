@@ -1,6 +1,6 @@
 {
   "name": "@react-daily-hooks/use-async-fn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Hook to handling asynchronous function",
   "main": "index.js",
   "repository": {
