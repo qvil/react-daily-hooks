@@ -1,6 +1,6 @@
 # useAxios
 
-React Hook to fetch using axios. [Demo](https://codesandbox.io/s/react-daily-hooksuse-axios-example-kur53)
+React Hook to fetch using axios.
 
 ## Install
 
@@ -10,7 +10,7 @@ npm i @react-daily-hooks/use-axios
 
 ## Basic Usage
 
-[Live Demo(Code Sandbox)](https://codesandbox.io/embed/react-qooksuse-axios-basic-example-uige8)
+[Live Demo(Code Sandbox)](https://codesandbox.io/s/react-daily-hooksuse-axios-example-kur53)
 
 ```js
 import React, { useState } from "react";
