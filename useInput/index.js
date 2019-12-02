@@ -1,10 +1,19 @@
-import { useState } from "react";
+/**
+ * @author Taesu Hyeon
+ */
 
-export default initialStaate => {
-  const [value, setValue] = useState(initialStaate);
-  const onChange = event => {
-    setValue(event.target.value);
-  };
+import { useState, useCallback } from "react";
 
-  return { onChange, value };
+const useInput = initValue => {
+  const [value, setValue] = useState(initValue);
+
+  const onChange = useCallback(
+    e => {
+      setValue(e.target.value);
+    },
+    [initValue]
+  );
+  return { value, onChange };
 };
+
+export default useInput;
